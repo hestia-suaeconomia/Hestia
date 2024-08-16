@@ -1,0 +1,50 @@
+body {
+    background-color: var(--verde-fundo);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--preto);
+
+}
+
+:root {
+    --verde-escuro: #254B2A;
+    /* Cor verde escuro */
+    --verde-claro: #E8F2C8;
+    /* Cor verde claro */
+    --verde-fundo: #ECF2DA;
+    /* Cor verde fundo */
+    --verde-neon: #D2F85C;
+    /* Cor verde neon */
+    --preto: #070E08
+}
+
+.DivVerde {
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+}
+
+.titulo h1 {
+    font-weight: 700;
+}
+
+.innerHome b {
+    color: var(--verde-neon);
+
+}
+
+.titulo p{
+    font-size: large;
+}
+.HomeSubtitulo h5 {
+    font-weight: 400;
+}
+
+
+.divNumber {
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+    font-weight: 400;
+}
+
+.divNumber h3 {
+    font-weight: 700;
+}
