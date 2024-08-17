@@ -2,6 +2,8 @@ body {
     background-color: var(--verde-fundo);
     font-family: 'Montserrat', sans-serif;
     color: var(--preto);
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -14,7 +16,7 @@ body {
     /* Cor verde fundo */
     --verde-neon: #D2F85C;
     /* Cor verde neon */
-    --preto: #070E08
+    --preto: #001300
 }
 
 .DivVerde {
@@ -34,10 +36,20 @@ body {
 .titulo p{
     font-size: large;
 }
+
 .HomeSubtitulo h5 {
     font-weight: 400;
 }
 
+.menu{
+    font-weight: 400;
+    font-size: 20px;
+   
+}
+
+.menu a{
+    color: var(--verde-claro);
+}
 
 .divNumber {
     background-color: var(--verde-escuro);
@@ -47,4 +59,8 @@ body {
 
 .divNumber h3 {
     font-weight: 700;
+}
+
+#teste{
+    color: var(--verde-claro);
 }
